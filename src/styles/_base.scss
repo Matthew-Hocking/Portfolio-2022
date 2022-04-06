@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.app__content {
+  margin-left: 100px;
+}
