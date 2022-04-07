@@ -1,8 +1,11 @@
 import React from 'react'
+import Title from './Title'
 
 const projects = () => {
   return (
-    <div className='projects' id="projects">projects</div>
+    <div className='container' id="projects">
+      <Title prompt="Check out" title="My Projects"/>
+    </div>
   )
 }
 

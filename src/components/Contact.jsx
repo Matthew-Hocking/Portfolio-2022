@@ -1,8 +1,11 @@
 import React from 'react'
+import Title from './Title'
 
 const Contact = () => {
   return (
-    <div className='contact' id="contact">Contact</div>
+    <div className='container' id="contact">
+      <Title prompt="Let's get in" title="Contact"/>
+    </div>
   )
 }
 

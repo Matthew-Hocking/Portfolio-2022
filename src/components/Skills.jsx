@@ -1,8 +1,11 @@
 import React from 'react'
+import Title from './Title'
 
 const Skills = () => {
   return (
-    <div className='skills' id="skills">Skills</div>
+    <div className='container' id="skills">
+      <Title prompt="Go through" title="My skills"/>
+    </div>
   )
 }
 

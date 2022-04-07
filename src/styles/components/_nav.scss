@@ -5,7 +5,7 @@
   width: 100px;
   height: 100vh;
   background-color: #395ee6;
-}
+  }
 
 .nav__links {
   display: flex;
@@ -14,16 +14,24 @@
   justify-content: center;
   height: 100%;
   a {
+    display: flex;
     height: 25px;
     margin-top: 15px;
     padding: 15px;
     border-radius: 5px;
   }
-  a:hover {
-    background-color: #567BFD;
+  span {
+    color: #fff;
+    display: none;
+    font-weight: 600;
   }
-}
-
-.selected {
-  border-bottom: 2px solid #fff;
+  a:hover {
+    svg {
+      display: none;
+    }
+    span {
+      align-items: center;
+      display: block;
+    }
+  }
 }
