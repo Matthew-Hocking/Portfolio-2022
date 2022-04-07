@@ -1,5 +1,5 @@
 // typography
-@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap';
 
 * {
   padding: 0;
@@ -12,6 +12,7 @@
 
 body {
   background-color: #f7f7f7;
+  overflow-x: hidden;
 }
 
 .app {
@@ -26,8 +27,6 @@ body {
 
 .container {
   padding: 50px 150px;
-  height: 100%;
-  max-height: 100vh;
 }
 
 // variables

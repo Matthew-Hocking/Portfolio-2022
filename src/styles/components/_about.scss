@@ -1,3 +1,7 @@
+.about {
+  height: 100vh;
+}
+
 .about__profile {
   width: 300px;
   margin: 20px 0px;
@@ -5,4 +9,11 @@
   background-color: #fff;
   border-radius: 15px;
   // box-shadow: 10px 15px 20px 1px rgb(154, 154, 154);
+}
+
+.bg-image {
+  background-image: url("me.png");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 100% 45%;
 }

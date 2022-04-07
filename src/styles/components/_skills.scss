@@ -1,3 +1,20 @@
-.skills {
-  height: 100vh;
+.skills__card {
+  display: grid;
+  margin: 20px 0px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+  grid-template-columns: repeat(8, 1fr);
+  img {
+    width: 90px;
+    margin-bottom: 5px;
+  }
+}
+
+.skills__item {
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
 }
