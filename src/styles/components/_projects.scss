@@ -1,0 +1,17 @@
+.projects__wrapper {
+  display: grid;
+  margin: 20px 0px;
+  padding: 50px;
+  // background-color: #fff;
+  border-radius: 15px;
+  // grid-template-columns: repeat(3, 1fr);
+}
+
+.projects__card {
+  display: grid;
+  margin: 20px 0px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+  width: fit-content;
+}
