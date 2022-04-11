@@ -1,4 +1,5 @@
 .nav {
+  color: #c5c5c5;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,6 +14,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+
   a {
     display: flex;
     height: 25px;
@@ -20,10 +22,12 @@
     padding: 15px;
     border-radius: 5px;
   }
+
   span {
     color: #fff;
     display: none;
   }
+
   a:hover {
     svg {
       display: none;
