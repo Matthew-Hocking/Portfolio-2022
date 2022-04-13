@@ -1,29 +1,25 @@
 import React, { useState } from 'react'
+import { Grid, Card, CardHeader } from '@mui/material';
 import Title from './Title'
-import { motion, AnimatePresence } from 'framer-motion'
 
 import projectsData from '../data/projects'
 
 const Projects = () => {
-
-  const [selected, setSelected] = useState(false)
 
   return (
     <div className='container' id="projects">
       <Title prompt="Check out" title="My Projects" />
 
       <div className='projects__wrapper'>
-        {projectsData.map((project, id) => (
-          <motion.div className='projects__card' layoutId={id} onClick={() => setSelected(id)}>
-            <motion.h1>{project.name}</motion.h1>
-            {selected && (
-              <motion.div layoutId={selected}>
-                <motion.p>{project.description}</motion.p>
-                <motion.h1 onClick={() => setSelected(null)} >X</motion.h1>
-              </motion.div>
-            )}
-          </motion.div>
-        ))}
+        <Grid container spacing={4}>
+          {projectsData.map((project, id) => (
+            <Grid item xs={4}>
+              <Card key={id} variant="none">
+                <CardHeader title={project.name} />
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
       </div>
 
     </div>

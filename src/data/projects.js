@@ -62,7 +62,7 @@ export default [
   },
   {
     id: 9,
-    name: "Matthew Hocking Blog",
+    name: "EDA Blog",
     deployLink: "https://matthew-hocking.github.io/",
     deployMethod: "GH Pages",
     github: "https://github.com/Matthew-Hocking/Matthew-Hocking.github.io",

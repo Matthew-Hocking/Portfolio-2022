@@ -5,7 +5,7 @@
   left: 0;
   width: 100px;
   height: 100vh;
-  background-color: #395ee6;
+  background: linear-gradient(to right bottom, #2999f5, #1859d1);
   }
 
 .nav__links {
@@ -17,8 +17,8 @@
 
   a {
     display: flex;
+    margin: 10px 0px;
     height: 25px;
-    margin-top: 15px;
     padding: 15px;
     border-radius: 5px;
   }
@@ -33,7 +33,7 @@
       display: none;
     }
     span {
-      align-items: center;
+      text-align: center;
       display: block;
     }
   }
