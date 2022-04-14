@@ -1,16 +1,31 @@
 .projects__wrapper {
-  display: grid;
   margin: 20px 0px;
-  // padding: 50px;
-  // background-color: #fff;
+  padding: 50px;
+  background-color: #fff;
   border-radius: 15px;
 }
 
 .projects__card {
-  display: grid;
   margin: 20px 10px 20px 0px;
   padding: 50px;
   background-color: #fff;
-  border-radius: 15px;
-  width: 70%;
+}
+
+.projects__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // text-align: center;
+}
+
+.projects__header_selected {
+  color: white;
+  position: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // text-align: center;
+  background: linear-gradient(to right bottom, #2999f5, #1859d1);
 }
