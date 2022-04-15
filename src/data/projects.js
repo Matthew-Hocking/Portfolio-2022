@@ -32,7 +32,7 @@ export default [
     deployLink: "https://hihi-app.herokuapp.com/#/",
     deployMethod: "HerokuApp",
     github: "https://github.com/Matthew-Hocking/Hihi",
-    description: "Hihi is a social media app heavily inspired by Twitter. A group project in the final week of Bootcamp at Enspiral Development Academy as a culmination of efforts and learnings, heavily built using React + Redux."
+    description: "Hihi is a social media app heavily inspired by Twitter. A group project in the final week of Bootcamp at Enspiral Development Academy as a culmination of efforts and learnings"
   },
   {
     id: 5,

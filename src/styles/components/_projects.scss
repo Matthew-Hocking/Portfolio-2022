@@ -6,14 +6,29 @@
 }
 
 .projects__card {
-  margin: 20px 10px 20px 0px;
-  padding: 50px;
-  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0.5 #000;
+  cursor: pointer;
+  :hover {
+    box-shadow: 5px 5px 5px #000;
+  }
+}
+
+.hihi {
+  background-image: url('hihi.jpg');
+}
+.catfacts {
+  background-image: url('cf.jpg');
 }
 
 .projects__header {
   display: flex;
   flex-direction: row;
+  justify-items: flex-start;
   justify-content: space-between;
   align-items: center;
   // text-align: center;

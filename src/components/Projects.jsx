@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from '@mui/material';
 
-import ProjectCard from './ProjectCard';
+import {Hihi, CatFacts} from './project_cards';
 import Title from './Title'
 
 const Projects = () => {
@@ -12,18 +12,12 @@ const Projects = () => {
       <Title prompt="Check out" title="My Projects" />
 
       <div className='projects__wrapper'>
-        <Grid container spacing={2}>
+        <Grid container spacing={8}>
           <Grid item xs={4}>
-            <ProjectCard name="HiHi" blurb="A social media app" description="Hello World" />
+            <Hihi />
           </Grid>
           <Grid item xs={4}>
-            <ProjectCard name="Share-Me" blurb="A social media app" description="Hello World"/>
-          </Grid>
-          <Grid item xs={4}>
-            <ProjectCard name="Gericht" blurb="A Restaurants website" description="UI and UX" />
-          </Grid>
-          <Grid item xs={4}>
-            <ProjectCard name="Checkd" blurb="a todo list" description="Hello World" />
+            <CatFacts />
           </Grid>
         </Grid>
       </div>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import { Card, Box } from '@mui/material';
-import { Button, Modal } from '@mui/material';
+import { Box } from '@mui/material';
+import { Modal } from '@mui/material';
 
 const style = {
   position: 'absolute',
@@ -9,12 +9,13 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 400,
   bgcolor: 'background.paper',
-  border: '2px solid #000',
+  borderRadius: "15px",
+  border: 'none',
   boxShadow: 24,
-  p: 4,
+  p: 5,
 };
 
-const ProjectCard = (props) => {
+const Hihi = () => {
 
   const [isOpen, setIsOpen] = useState(false)
 
@@ -23,23 +24,19 @@ const ProjectCard = (props) => {
   }
 
   return (
-    <Card className='projects__card'>
-      <div >
-        <h2>{props.name}</h2>
-        <p>{props.blurb}</p>
-      </div>
-      <Button onClick={toggleOpen}>See More</Button>
+    <div className='projects__card hihi' onClick={toggleOpen}>
       <Modal
         open={isOpen}
         onClose={toggleOpen}
       >
         <Box sx={style}>
-          <h2>Hello World</h2>
-          <p>i work!!</p>
+          <h2>Hihi</h2>
+          <p>Hihi is a social media app heavily inspired by twitter</p>
+          <p id="tools">Node.js, React, Redux, Express, SQLite3, SASS</p>
         </Box>
       </Modal>
-    </Card>
+    </div>
   )
 }
 
-export default ProjectCard
+export default Hihi
