@@ -1,3 +1,58 @@
 .home {
+  overflow-x: hidden;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#home {
+  overflow-x: hidden;
+}
+
+.home__banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.home__banner_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__links {
+  display: flex;
+  flex-direction: row;
+  color: #888;
+  margin: 10px 20px;
+  a {
+    padding: 10px;
+  }
+}
+
+.home__banner_title {
+  font-size: 140%;
+  width: 35vw;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 425px;
+  height: 425px;
+  background: linear-gradient(to right bottom, #2999f5, #1859d1);
+  border-radius: 50%;
+  img{
+    width: 500px;
+    border-radius: 50%;
+  }
+}
+
+#blurb {
+  color: #1859d1;
 }

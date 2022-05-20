@@ -5,6 +5,13 @@
   border-radius: 15px;
 }
 
+.hihi {
+  background-image: url('hihi.jpg');
+}
+.catfacts {
+  background-image: url('cf.jpg');
+}
+
 .projects__card {
   background-position: center;
   background-size: cover;
@@ -13,17 +20,8 @@
   border-radius: 15px;
   box-shadow: 5px 5px 0.5 #000;
   cursor: pointer;
-  :hover {
-    box-shadow: 5px 5px 5px #000;
-  }
 }
 
-.hihi {
-  background-image: url('hihi.jpg');
-}
-.catfacts {
-  background-image: url('cf.jpg');
-}
 
 .projects__header {
   display: flex;
