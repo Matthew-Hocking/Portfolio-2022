@@ -4,9 +4,10 @@ import Typewriter from 'typewriter-effect'
 const LandingTypewriter = () => {
   const phrases = [
     "Full-Stack Developer",
-    "Curious and Creative",
-    "Design Enthusiast",
-    "Proffessional Headbanger"
+    "Livingroom Rockstar",
+    "Craft Beer Lover",
+    "",
+    ""
   ]
 
   return (
@@ -21,7 +22,7 @@ const LandingTypewriter = () => {
       }}
       onInit={typewriter => {
       typewriter
-        .pauseFor(150)
+        .pauseFor(80)
         .deleteAll()
         .start()
     }}/>

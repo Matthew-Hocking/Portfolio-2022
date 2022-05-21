@@ -1,20 +1,22 @@
 .skills__card {
-  display: grid;
   margin: 20px 0px;
   padding: 50px;
   background-color: #fff;
   border-radius: 15px;
-  grid-template-columns: repeat(7, 1fr);
-  img {
-    width: 90px;
-    margin-bottom: 5px;
-  }
 }
 
 .skills__item {
+  width: 10vw;
   padding: 20px;
   text-align: center;
-  width: fit-content;
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
+  img {
+    width: 80px;
+  }
+  p {
+    margin-top: 5px;
+  }
 }

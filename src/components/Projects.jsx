@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
 
-    <div className='container' id="projects">
+    <div className='container full' id="projects">
       <Title prompt="Check out" title="My Projects" />
 
       <div className='projects__wrapper'>

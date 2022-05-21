@@ -4,7 +4,7 @@ import Title from './Title'
 
 const About = () => {
   return (
-    <div className='container bg-image' id="about">
+    <div className='container bg-image full' id="about">
       <Title prompt="Learn a bit" title="About me" />
       <div className='about__profile'>
         <p>
