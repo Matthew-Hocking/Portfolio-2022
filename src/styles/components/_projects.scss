@@ -5,40 +5,17 @@
   border-radius: 15px;
 }
 
-.hihi {
-  background-image: url('hihi.jpg');
-}
-.catfacts {
-  background-image: url('cf.jpg');
-}
 
 .projects__card {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200px;
+  margin: 20px 0px;
+  padding: 50px;
+  background-color: #fff;
   border-radius: 15px;
-  box-shadow: 5px 5px 0.5 #000;
-  cursor: pointer;
 }
 
-
-.projects__header {
+.project__accordion_summary {
   display: flex;
   flex-direction: row;
-  justify-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  // text-align: center;
-}
-
-.projects__header_selected {
-  color: white;
-  position: block;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  // text-align: center;
-  background: linear-gradient(to right bottom, #2999f5, #1859d1);
 }

@@ -1,8 +1,9 @@
 import React from 'react'
-import { Grid } from '@mui/material';
+import { Grid } from '@mui/material'
 
-import {Hihi, CatFacts} from './project_cards';
 import Title from './Title'
+import ProjectAccordian from './ProjectAccordian'
+import projects from '../data/projects'
 
 const Projects = () => {
 
@@ -10,15 +11,13 @@ const Projects = () => {
 
     <div className='container full' id="projects">
       <Title prompt="Check out" title="My Projects" />
-
-      <div className='projects__wrapper'>
-        <Grid container spacing={8}>
-          <Grid item xs={4}>
-            <Hihi />
-          </Grid>
-          <Grid item xs={4}>
-            <CatFacts />
-          </Grid>
+      <div className='projects__card'>
+        <Grid container spacing={2} >
+          {projects.map((project, id) => (
+            <Grid item >
+              <ProjectAccordian project={project} key={id} />
+            </Grid>
+          ))}
         </Grid>
       </div>
 

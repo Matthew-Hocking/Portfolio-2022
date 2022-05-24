@@ -43,8 +43,4 @@ export default [
     name: "Material UI",
     image: "/images/material-ui.svg"
   },
-  {
-    name: "",
-    image: ""
-  },
 ]
