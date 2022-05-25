@@ -3,7 +3,6 @@ export default [
     name: "Share-Me",
     image: "",
     deployLink: "",
-    deployMethod: "",
     github: "",
     description: "A social media app for users to share and enjoy images. Users can register using their google account, save pictures, leave comments, and upload their own. Share-Me uses a Content Management System called Sanity; An intuitive and easy-to-implement database solution.",
     tools: "React, Sanity CMS, Node.js"
@@ -12,7 +11,6 @@ export default [
     name: "Gericht",
     image: "",
     deployLink: "",
-    deployMethod: "",
     github: "",
     description: "Gericht is a single page website for a fictional restaurant. The purpose of which is to demonstrate modern UI and UX principles for web-design, accessibility, and responiveness.",
     tools: "React, Node.js, Material UI"
@@ -21,16 +19,14 @@ export default [
     name: "Checkd",
     image: "",
     deployLink: "",
-    deployMethod: "",
     github: "",
     description: "Checkd is for users to build and manage their own to-do checklist. The checklist is only stored and managed within the state.",
     tools: ""
   },
   {
     name: "Hihi",
-    image: "/images/hihi.jpg",
+    image: "/styles/hihi.jpg",
     deployLink: "https://hihi-app.herokuapp.com/#/",
-    deployMethod: "HerokuApp",
     github: "https://github.com/Matthew-Hocking/Hihi",
     description: "Hihi is a social media app heavily inspired by Twitter. A group project in the final week of Bootcamp at Enspiral Development Academy as a culmination of efforts and learnings"
   },
@@ -56,7 +52,6 @@ export default [
     name: "CatFacts",
     image: "",
     deployLink: "http://getcatfacts.herokuapp.com/",
-    deployMethod: "HerokuApp",
     github: "https://github.com/Matthew-Hocking/Cat-Facts",
     description: "CatFacts simply provides a random fact about cats, and with a click will return a new one. Being a solo project, this was my first opportunity at getting familiar with external APIs."
   },
@@ -64,7 +59,6 @@ export default [
     name: "EDA Blog",
     image: "",
     deployLink: "https://matthew-hocking.github.io/",
-    deployMethod: "GH Pages",
     github: "https://github.com/Matthew-Hocking/Matthew-Hocking.github.io",
     description: "This is a personal blog I created as part of the curriculum at Enspiral Dev Academy, and the first thing I ever created. Admittedly it's trash, but I love to keep it around as it's a great reminder of my progress and learning."
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid } from '@mui/material'
 
 import Title from './Title'
-import ProjectAccordian from './ProjectAccordian'
+import ProjectModal from './ProjectModal'
 import projects from '../data/projects'
 
 const Projects = () => {
@@ -14,8 +14,8 @@ const Projects = () => {
       <div className='projects__card'>
         <Grid container spacing={2} >
           {projects.map((project, id) => (
-            <Grid item >
-              <ProjectAccordian project={project} key={id} />
+            <Grid item key={id} xs={4}>
+              <ProjectModal project={project} />
             </Grid>
           ))}
         </Grid>
