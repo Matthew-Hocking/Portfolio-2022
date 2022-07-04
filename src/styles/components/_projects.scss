@@ -13,23 +13,33 @@
   border-radius: 15px;
 }
 
-.modal__header {
-  margin-bottom: 15px;
+.project {
+  background: linear-gradient(to right bottom, #fff, #f0f0f0);
+  box-shadow: 2px 2px #ddd;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.project__header {
+  margin-bottom: 18px;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.modal__header_links {
+.project__header_links {
   a {
     margin-left: 10px;
-    color: #2999f5;
-    padding: 8px 16px;
-    border-radius: 25px;
-  }
-  a:hover {
     color: #fff;
     background: linear-gradient(to right bottom, #2999f5, #1859d1);
+    padding: 5px 12px;
+    border-radius: 25px;
   }
+}
+
+.button:hover {
+  color: #1859d1;
+  cursor: pointer;
 }
