@@ -1,6 +1,6 @@
 // typography
 @import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap';
-@import "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Tinos&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Tinos&display=swap";
 
 p {
   font-family: 'Lexend Deca', sans-serif;
@@ -49,4 +49,12 @@ body {
 
 .button:hover {
   background-color: #f7f7f7;
+}
+
+.hover:hover {
+  box-shadow: 5px 5px #ddd;
+}
+
+#white {
+  color: #fff;
 }

@@ -13,8 +13,8 @@ const Projects = () => {
       <div >
         <Grid container spacing={2} >
           {projects.map((project, id) => (
-            <Grid item lg={6}>
-              <div className='project' key={id}>
+            <Grid item lg={6} >
+              <div className='project hover' key={id}>
                 <div className='project__header'>
                   <h2>{project.name}</h2>
                   <div className='project__header_links'>
