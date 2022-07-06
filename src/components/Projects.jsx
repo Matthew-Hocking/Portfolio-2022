@@ -10,7 +10,7 @@ const Projects = () => {
 
     <div className='container full' id="projects">
       <Title prompt="Check out" title="My Projects" />
-      <div className='projects__card'>
+      <div >
         <Grid container spacing={2} >
           {projects.map((project, id) => (
             <Grid item lg={6}>
@@ -18,7 +18,8 @@ const Projects = () => {
                 <div className='project__header'>
                   <h2>{project.name}</h2>
                   <div className='project__header_links'>
-                    <a href={project.github} target="_blank" >Github</a>
+                    <a href={project.github} target="_blank" className="button">Github</a>
+                    {project.deployLink ? <a href={project.deployLink} target="_blank" className="button">Live</a> : null}
                   </div>
                 </div>
                 <p>{ project.description}</p>

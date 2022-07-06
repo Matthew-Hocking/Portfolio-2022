@@ -1,5 +1,10 @@
 // typography
 @import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap';
+@import "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Tinos&display=swap";
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+}
 
 * {
   padding: 0;
@@ -31,4 +36,17 @@ body {
 
 .full {
   min-height: 100vh;
+}
+
+.button {
+  all: unset;
+  color: #1859d1;
+  padding: 5px 12px;
+  margin-left: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f7f7f7;
 }

@@ -1,24 +1,12 @@
-.projects__wrapper {
-  margin: 20px 0px;
-  padding: 50px;
-  background-color: #fff;
-  border-radius: 15px;
-}
-
-
-.projects__card {
-  margin: 20px 0px;
-  padding: 50px;
-  background-color: #fff;
-  border-radius: 15px;
-}
-
 .project {
-  background: linear-gradient(to right bottom, #fff, #f0f0f0);
-  box-shadow: 2px 2px #ddd;
+  background-color: #fff;
   padding: 30px;
   margin: 20px;
   border-radius: 15px;
+}
+
+.project:hover {
+  box-shadow: 5px 5px #ddd;
 }
 
 .project__header {
@@ -27,19 +15,4 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.project__header_links {
-  a {
-    margin-left: 10px;
-    color: #fff;
-    background: linear-gradient(to right bottom, #2999f5, #1859d1);
-    padding: 5px 12px;
-    border-radius: 25px;
-  }
-}
-
-.button:hover {
-  color: #1859d1;
-  cursor: pointer;
 }
