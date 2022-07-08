@@ -24,16 +24,6 @@
   align-items: center;
 }
 
-.home__links {
-  display: flex;
-  flex-direction: row;
-  color: #888;
-  margin: 10px 20px;
-  a {
-    padding: 10px;
-  }
-}
-
 .home__banner_title {
   font-size: 140%;
   width: 35vw;
@@ -55,4 +45,28 @@
 
 #blurb {
   color: #1859d1;
+}
+
+@media (max-width: 856px) {
+  .home__banner_content {
+    flex-direction: column-reverse;
+  }
+
+  .home__banner_title {
+    font-size: 1em;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .square {
+    margin-top: 50px;
+    width: 50vw;
+    height: 50vw;
+    img {
+      width: 60vw;
+    }
+  }
 }
